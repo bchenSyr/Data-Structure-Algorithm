@@ -1,12 +1,9 @@
-Polynomial Operations using linked lists
+//  Author: Beier Chen, bchen22@syr.edu
+//  Date: Jan 29, 2018
+//  Applicaiton: 554 HW1 - Polynomial Operations using linked lists
 
 //A polynomial is implemented using a linked list.  Only non-zero coefficients are included in linked list.
 //Implment member functions operator+ , operator* , and add term
-
-
-// Author: Beier Chen, bchen22@syr.edu
-// Date: Jan 29, 2018
-// Source: Roger Chen
 
 #include <iostream>
 
