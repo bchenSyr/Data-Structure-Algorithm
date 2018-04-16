@@ -16,3 +16,4 @@
 2. Implement reverse, sort, remove and insert function for double linked list
 3. Nested STL containers (map, list, vector)
 4. Practice in template, copy constructor, move constructor, copy assignment and move assignment
+5. Design data structures and logic to implement a poker game
