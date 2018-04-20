@@ -6,7 +6,7 @@
 2. Sparse Matrix using linked list
 3. Dijkstra's Algorithm using min-heap
 4. Prim's Algorithm using min-heap
-5. Merge Sort using linked list
+5. Merge Sort using linked list (recusion and iteration method)
 6. Design data structures to implement AVL Tree
 7. Design data structures to implement 2-3-4 Tree
 
