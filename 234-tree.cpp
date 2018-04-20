@@ -1,5 +1,5 @@
 // CSE674 HW7 2-3-4 Tree
-// Date: Tuesday 12 / 5 at 11 : 59
+// Date: Tuesday Dec 5 2017
 // Author: Beier Chen, bchen22@syr.edu
 
 //#include "stdafx.h"
@@ -10,13 +10,14 @@ using namespace std;
 
 class node
 {
-    //for simplicity, we again assume all numbers are distinct
+//for simplicity, we again assume all numbers are distinct
 public:
     int num_values;
     vector<int> value;  //it can contain 1 ... 3 values
     node * parent;
     vector<node *> child;  //child[i] ( i = 0 ... 3) is a pointer to child node i
-    int child_state; //a node can have up to 4 child nodes: child 0, 1, 2, 3.  child_state i (0 ... 3) means this node is child i of its parent
+    int child_state; //a node can have up to 4 child nodes: child 0, 1, 2, 3.  child_state i (0 ... 3) 
+                     //means this node is child i of its parent
     int is_leaf; //1 if this is a leaf node; otherwise 0
     node() { num_values = 0; is_leaf = 1; child.assign(4, nullptr); parent = nullptr; value.assign(3, -999); }
     void add_value(int k);  //add value to a node of less than 3 value
