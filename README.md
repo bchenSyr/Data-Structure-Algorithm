@@ -17,3 +17,4 @@
 3. Nested STL containers (map, list, vector)
 4. Practice in template, copy constructor, move constructor, copy assignment and move assignment
 5. Design data structures and logic to implement a poker game
+6. Design a multithread program to finish a put/get buffer
